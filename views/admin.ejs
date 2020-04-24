@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <%- include('includes/adminscript'); -%>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+        <%- include('includes/fontawesome'); -%>
+    </head>
+    <body>
+        <%- include('includes/loggedin'); -%>
+
+        <main>
+            <h2><%= message %> <%= who %></h2>
+            <div id="users"></div>
+        </main>
+    </body>
+</html>

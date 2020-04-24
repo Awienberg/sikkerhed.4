@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <%- include('includes/todoscript'); -%>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+        <%- include('includes/fontawesome'); -%>
+    </head>
+    <body>
+        <%- include('includes/loggedin'); -%>
+
+        <main>
+            <div class="userpanel">
+                <a href="userpanel">Userpanel</a>
+                <a href="/">Logout</a>
+            </div>
+
+            <h2>Create Todo</h2>
+            <div id="updateCreate">
+            </div>
+
+            <h2>Added Todo</h2>
+            <div id="addTask"></div>
+        </main>
+    </body>
+</html>
